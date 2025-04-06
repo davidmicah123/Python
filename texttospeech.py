@@ -71,15 +71,15 @@
 # while True:
 #     print("Active")  # Simulates activity
 #     time.sleep(60)  # Waits for 60 seconds before repeating
-# 1
+# 1 
 
 
 import time
 
-file_path = "file.txt"  # Change the filename if needed
+file_path = "script.js"  # Writing to script.js
 
 while True:
-    with open(file_path, "a") as file: 
-        file.write("Still active...\n") 
-    print("Wrote to file.txt")  
-    time.sleep(30)  
+    with open(file_path, "a") as file:  
+        file.write('console.log("Still active...");\n')  # JavaScript syntax
+    print("Wrote to script.js")  
+    time.sleep(20)  # Wait for 30 seconds before writing again

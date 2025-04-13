@@ -220,3 +220,6 @@ class User {
         console.log(`${this.name} logged in`);
     }
 }
+function isEven(num) {
+    return num % 2 === 0;
+}

@@ -543,3 +543,6 @@ Project notes:
 Client feedback:
 - 'Make the site mobile-friendly'
 - 'Too many popups'
+Today's goals:
+- Refactor script.js
+- Write styles for form
